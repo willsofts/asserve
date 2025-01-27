@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  asserve:
+    image: willsofts/asserve
+    container_name: asserve
+    environment:
+      - TZ=Asia/Bangkok
+    volumes:
+      - ./config/default-docker.json:/usr/node/app/config/default.json
+    ports:
+      - 8081:8080
