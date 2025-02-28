@@ -1,7 +1,7 @@
 FROM node:20.18.0
 
 ENV NODE_ENV=production
-ENV NPM_TOKEN=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
+ENV NPM_TOKEN=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
 
 RUN mkdir -p /usr/node/app
 WORKDIR /usr/node/app
